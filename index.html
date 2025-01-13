@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Socket.IO APP</title>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <h1>Socket.IO APP</h1>
+  <div id="message"></div>
+  
+  <script>
+    // Connect to the Socket.IO server
+    var socket = io();
+    
+    // Listen for the message from the server
+    socket.on('message', function(msg) {
+      document.getElementById('message').innerText = msg;
+    });
+
+    // Optionally, send a message to the server
+    socket.emit('message', 'Hello World from the client!');
+  </script>
+</body>
+</html>
