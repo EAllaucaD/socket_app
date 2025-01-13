@@ -35,7 +35,7 @@ JavaScript
 
 ### 1. Clone the Repository
 ```bash
-git 
+git clone https://github.com/EAllaucaD/socket_app.git 
 ```
 ### 2. Commands
 
@@ -61,3 +61,7 @@ You can view the execution of the application on the port http://localhost:3000/
 You can see the message Hello World.
 
 ## 🎨 Preview
+
+![image](https://github.com/user-attachments/assets/b428902b-9de2-4851-82c1-e6d8b4e43326)
+
+![image](https://github.com/user-attachments/assets/26d93593-924d-4b5e-a961-aec330a68054)
