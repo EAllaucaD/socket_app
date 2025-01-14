@@ -12,12 +12,12 @@
 
 ## 📖 About the Project
 
-This project is a practice of how to use Rest API.
+This project is a practice of how to use Socket with the JavaScript programming language.
 
 
 ## 🛠️ Tools Used
 
-JavaScript
+**JavaScript**
 
 ## 📋 Prerequisites
 
@@ -58,7 +58,7 @@ Once you open the files and run the necessary commands, you can use the followin
 ```
 You can view the execution of the application on the port http://localhost:3000/
 
-You can see the message Hello World.
+You can see the message Hello World in localhost and see the message in console from client.
 
 ## 🎨 Preview
 
